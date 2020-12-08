@@ -1,0 +1,174 @@
+.navbar {
+  transition: all 0.4s;
+  flex-shrink: 0;
+  display: block;
+  display: flex;
+  backdrop-filter: blur(10px);
+  align-items: center!important;
+  background-color: rgba(255, 255, 255, 0.50);
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.95);
+  padding-right: 50px;
+  padding-left: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100%!important;
+  font-weight: 500;
+}
+
+.navbar .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #555;
+}
+
+
+
+
+
+
+.navbar.active {
+  background: #fff;
+  box-shadow: 0px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+}
+
+
+
+
+
+
+
+     /* Extra small devices (phones, 600px and down) */
+      @media only screen and (max-width: 600px) {
+        .carousel-image2 {
+          background-image: url("img/slide2.jpg");
+          background-size: cover;
+          height: 960px;
+        }
+        #whatever {
+          display: none;
+          visibility: hidden;
+        
+        }
+      }
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+      @media only screen and (min-width: 600px) {
+        .carousel-image2 {
+          background-image: url("img/slide2.jpg");
+          background-size: cover;
+          height: 960px;
+        }
+
+      }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+      @media only screen and (min-width: 768px) {
+        .carousel-image2 {
+          background-image: url("img/slide2.jpg");
+          background-size: cover;
+          height: 480px;
+        }
+      }
+
+    /* Large devices (laptops/desktops, 992px and up) */
+      @media only screen and (min-width: 992px) {
+        .carousel-image2 {
+          background-image: url("img/slide2.jpg");
+          background-size: cover;
+          height: 750px;
+        }
+      }
+
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+      @media only screen and (min-width: 1200px) { 
+        .carousel-image2 {
+          background-image: url("img/slide2.jpg");
+          background-size: cover;
+          height: 750px;
+        }
+      }
+
+
+ /* ====== MEDIA QUERIES ====== */
+ header {
+    position: relative;
+    background-color: black;
+    height: 98vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 1;
+  }
+
+
+  /*===== FIXED BACKGROUND IMG =====*/
+
+.padding {
+    padding-bottom: 2rem;
+  }
+  .fa-code {
+    color: #e54d26;
+  }
+  .fa-bold {
+    color: #563d7c;
+  }
+  .fa-css3 {
+    color: #2163af;
+  }
+  .fa-code, .fa-bold, .fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+  }
+
